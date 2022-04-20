@@ -41,7 +41,7 @@ akbarvpnnnnnnnnnn="raw.githubusercontent.com/myridwan/sc/ipuk/ohp"
 
 # Getting
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl https://zanxx.xyz/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
